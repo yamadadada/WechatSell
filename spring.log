@@ -1,0 +1,14 @@
+2018-08-11 18:52:51.835  INFO 4724 --- [main] com.example.sell.LoggerTest              : Starting LoggerTest on LAPTOP-I52F1KQC with PID 4724 (started by 允少 in D:\Program Files\Java\sell)
+2018-08-11 18:52:51.838  INFO 4724 --- [main] com.example.sell.LoggerTest              : No active profile set, falling back to default profiles: default
+2018-08-11 18:52:51.867  INFO 4724 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@e350b40: startup date [Sat Aug 11 18:52:51 CST 2018]; root of context hierarchy
+2018-08-11 18:52:53.632  INFO 4724 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-11 18:52:53.848  INFO 4724 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@e350b40: startup date [Sat Aug 11 18:52:51 CST 2018]; root of context hierarchy
+2018-08-11 18:52:53.932  INFO 4724 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-11 18:52:53.934  INFO 4724 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-11 18:52:53.969  INFO 4724 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-11 18:52:53.969  INFO 4724 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-11 18:52:54.594  INFO 4724 --- [main] com.example.sell.LoggerTest              : Started LoggerTest in 3.174 seconds (JVM running for 4.084)
+2018-08-11 18:52:54.689  INFO 4724 --- [main] com.example.sell.LoggerTest              : info...
+2018-08-11 18:52:54.689 ERROR 4724 --- [main] com.example.sell.LoggerTest              : error...
+2018-08-11 18:52:54.689  INFO 4724 --- [main] com.example.sell.LoggerTest              : name： immoc, password: 123456
+2018-08-11 18:52:54.693  INFO 4724 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@e350b40: startup date [Sat Aug 11 18:52:51 CST 2018]; root of context hierarchy
